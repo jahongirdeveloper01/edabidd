@@ -282,3 +282,15 @@ if(df >= 100){
 	}
 }
 ```
+[//37-funktsiya ->](https://edabit.com/challenge/nEdLGbAZQ5LaiumP6)
+```js
+function isEven(n) {
+	if(n % 2 === 0){
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
+[//38-funktsiya ->]
