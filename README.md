@@ -20,44 +20,44 @@ function convert(minutes) {
 	return minutes * 60;
 }
 ```
-[//4-funktsiya ->]( https://edabit.com/challenge/NAQhEoxbofPidLxm9)
+[//4-funktsiya ->](https://edabit.com/challenge/NAQhEoxbofPidLxm9)
 ```js
 function addition(num) {
 	return ++num
 }
 ```
-[//5-funktsiya -> ]( https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
+[//5-funktsiya ->](https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
 ```js
 function calcAge(age) {
 	return age * 365;
 }
 ```
-[//6-funktsiya ->]( https://edabit.com/challenge/wAdE9te55cowBLcPs)
+[//6-funktsiya ->](https://edabit.com/challenge/wAdE9te55cowBLcPs)
 ```js
 function circuitPower(voltage, current) {
 	return voltage * current;
 }
 ```
-[//7-funktsiya ->]( https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+[//7-funktsiya ->](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
 ```js
 function howManySeconds(hours) {
 	return hours * 3600;
 }
 ```
-[//8-funktsiya ->]( https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+[//8-funktsiya ->](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
 ```js
 function howManySeconds(hours) {
 	return hours * 3600;
 }
 ```
-[//9-funktsiya -> ](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
+[//9-funktsiya ->](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
 ```js
 function nextEdge(side1, side2) {
 	return side1 + side2 - 1;
 }
 ```
 
-[//10-funktsiya] (https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
+[//10-funktsiya](https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
 
 ```js
 function findPerimeter(length, width) {
@@ -212,5 +212,73 @@ function profitableGamble(prob, prize, pay) {
 [//29-funktsiya ->](https://edabit.com/challenge/GwvwXHWCThHZrR7xu)
 ```js
 	return (wins * 3) + (draws * 1) + (losses * 0){
+}
+```
+[//30-funktsiya ->](https://edabit.com/challenge/KSTkFSnaYBJdo6PHx)
+```js
+function boolToString(flag) {
+	if(flag == true){
+		return "true"
+	}
+	else{
+		return "false"
+	}
+}
+```
+[//31-funktsiya ->](https://edabit.com/challenge/QkvDge63crdGnMfvM)
+```js
+
+```
+[//32-funktsiya ->](https://edabit.com/challenge/d9suvbchE2bnHNQuK)
+```js
+function frames(minutes, fps) {
+	return minutes * fps * 60
+}
+```
+[//33-funktsiya ->](https://edabit.com/challenge/4SmqXvQtL6qRgzfha)
+```js
+function greeting(name) {
+  let a = "Hello, " + name + "!";
+  if(name == "Mubashir") {
+    return "Hello, my Love!";
+  }
+	else{
+		return a
+	}
+}
+```
+[//34-funktsiya ->](https://edabit.com/challenge/uE9AJ4sSrrpSASMpu)
+```js
+function maxNum(n1,n2) {
+	if (n1>n2) {
+	  return n1
+	}
+	else{
+	return n2
+  }
+}
+```
+[//35-funktsiya ->](https://edabit.com/challenge/5erCDJ8eJDrXkmwTK)
+```js
+function makesTen(a, b) {
+	let f = a + b
+	if(f == 10 || a == 10 || b == 10){
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
+[//36-funktsiya ->](https://edabit.com/challenge/YMWDcSuYwYvve3HZj)
+```js
+function calculateFuel(n) {
+	let df = n * 10 
+if(df >= 100){
+	return df
+} 
+	else{
+		return 100
+	}
 }
 ```
