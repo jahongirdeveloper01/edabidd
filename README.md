@@ -326,3 +326,9 @@ function has_bugs(buggy_code) {
 	}
 }
 ```
+[//41-funktsiya ->](https://edabit.com/challenge/EzbfiquDoAc2Zc9FL)
+```js
+function isEmpty(s) {
+	return s.length == 0;
+}
+```
