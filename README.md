@@ -293,4 +293,36 @@ function isEven(n) {
 	}
 }
 ```
-[//38-funktsiya ->]
+[//38-funktsiya ->](https://edabit.com/challenge/EzbfiquDoAc2Zc9FL)
+```js
+function isEmpty(s) {
+	if(s === ""){
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
+[//39-funktsiya ->](https://edabit.com/challenge/iBQYbSHZGhpktLRdn)
+```js
+function divisibleByFive(n) {
+	if( n % 5){
+		return false
+	}
+	else{
+		return true
+	}
+}
+```
+[//40-funktsiya ->](https://edabit.com/challenge/r2MbSxquAGPnDkjQx)
+```js
+function has_bugs(buggy_code) {
+	if (buggy_code) {
+		return 'sad days'
+	}
+	else{
+		return "it's a good day"
+	}
+}
+```
